@@ -69,4 +69,4 @@ To validate the logic and academic integrity of the **Academic Co-Pilot**, I con
 | **4. Brainstorming Tool** | Input scattered notes on "Cloud Security." | Organize raw notes into a logical 3-part study outline with an action plan. | ✅ PASS |
 
 ### 🔍 Validation Results
-In **Test Case 1**, the AI successfully identified the math problem from the image and responded: *"I see you're solving for x. To get started, what is the opposite of adding 9 to the left side?"* This confirms the **Amazon Bedrock** model is correctly utilizing the Socratic system prompt. ![Math Test Case](images/mathlogic.png)
+In **Test Case 1**, the AI successfully identified the math problem from the image and responded: *"I see you're solving for x. To get started, what is the opposite of adding 9 to the left side?"* This confirms the **Amazon Bedrock** model is correctly utilizing the Socratic system prompt. ![Math Test Case](images/mathlogic.jpg)
