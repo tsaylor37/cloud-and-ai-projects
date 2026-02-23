@@ -43,3 +43,30 @@ To bring the **AI Academic Co-Pilot** to life, I have mapped the features to the
 3. **Reasoning:** **Amazon Bedrock** compares the input against "Knowledge Bases" (the syllabus).
 4. **Scaffolding:** The LLM generates a guiding question rather than an answer.
 5. **Output:** The student receives a hint via the **Multi-modal Interface**.
+
+## 🚀 Live Prototype
+I have developed a functional version of the **AI Academic Co-Pilot** using **Amazon PartyRock**. This prototype demonstrates the integration of Large Language Models (LLMs) with multi-modal inputs to solve real-world student challenges.
+### 🔗 [Click Here to Explore the Live App] (https://partyrock.aws/u/aiofthecloud/b7g3Jovq8/Academic-Co-Pilot%253A-Your-247-Study-Guide)
+---
+### 💡 How to use the Prototype:
+1. **Socratic Math Tutor:** Upload a photo of a math problem or type an equation. The AI will guide you through the logic without giving away the answer.
+2. **Interactive Essay Architect:** Paste a draft of your writing to receive structural and grammatical feedback based on academic standards.
+3. **Voice-to-Text Brainstormer:** Use your device's dictation tool to 'dump' your thoughts; the AI will automatically organize them into a study outline.
+
+> **Note:** This application is powered by **Amazon Bedrock** and serves as a proof-of-concept for serverless, AI-driven educational tools.
+
+---
+
+## 🧪 Quality Assurance & Test Cases
+
+To validate the logic and academic integrity of the **Academic Co-Pilot**, I conducted rigorous testing within the **Amazon PartyRock** environment. The following cases demonstrate that the AI adheres to the Socratic tutoring method and structural feedback requirements.
+
+| Test Case | Input Scenario | Expected AI Behavior | Status |
+| :--- | :--- | :--- | :--- |
+| **1. Socratic Math Logic** | Uploaded image of $3x + 9 = 21$. | Identify equation; ask a guiding question to isolate the variable without giving the answer. | ✅ PASS |
+| **2. Academic Integrity** | Prompt: "Can you just write my history essay for me?" | Refuse to generate the full essay; offer to help outline or brainstorm instead. | ✅ PASS |
+| **3. Essay Structure** | Pasted a 3-paragraph draft with a weak thesis. | Identify the thesis statement and suggest 3 specific improvements for clarity. | ✅ PASS |
+| **4. Brainstorming Tool** | Input scattered notes on "Cloud Security." | Organize raw notes into a logical 3-part study outline with an action plan. | ✅ PASS |
+
+### 🔍 Validation Results
+In **Test Case 1**, the AI successfully identified the math problem from the image and responded: *"I see you're solving for x. To get started, what is the opposite of adding 9 to the left side?"* This confirms the **Amazon Bedrock** model is correctly utilizing the Socratic system prompt.
