@@ -1,6 +1,10 @@
 # Tanzeania S. | AWS Cloud & Generative AI Portfolio
 > Professional portfolio showcasing technical skills and innovative solutions developed during the AWS re/Start program.
 
+<p align="center">
+  <img src="./images/Gemini_Generated_Image_yz55j8yz55j8yz55.jpg" alt="AI Academic Co-Pilot Banner" width="100%">
+</p>
+
 ---
 
 ## 🤖 Artificial Intelligence Exploration
