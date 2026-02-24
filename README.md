@@ -2,7 +2,7 @@
 > Professional portfolio showcasing technical skills and innovative solutions developed during the AWS re/Start program.
 
 <p align="center">
-  <img src="./images/banner.png" alt="AI Academic Co-Pilot Banner" width="100%">
+  <img src="./images/banner.png" alt="AI Academic Co-Pilot Banner" width="85%">
 </p>
 
 ---
