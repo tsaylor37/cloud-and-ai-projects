@@ -69,10 +69,14 @@ To validate the logic and academic integrity of the **Academic Co-Pilot**, I con
 | **4. Brainstorming Tool** | Input scattered notes on "Cloud Security." | Organize raw notes into a logical 3-part study outline with an action plan. | ✅ PASS |
 
 ### 🔍 Validation Results
-In **Test Case 1: Socratic Math Logic**, the AI successfully identified the math problem from the image and responded: *"I see you're solving for x. To get started, what is the opposite of adding 9 to the left side?"* This confirms the **Amazon Bedrock** model is correctly utilizing the Socratic system prompt.![Math Test Case](images/mathlogic.jpg)
+In **Test Case 1: Socratic Math Logic**, the AI successfully identified the math problem from the image and responded: *"I see you're solving for x. To get started, what is the opposite of adding 9 to the left side?"* This confirms the **Amazon Bedrock** model is correctly utilizing the Socratic system prompt.
+![Math Test Case](images/mathlogic.jpg)
 
-In **Test Case 2: Academic Integrity**, the AI successfully upheld integrity when asked *"Can you just write my history essay for me?"* by refusing to write the essay. Also offered a 3-part study outline and action plan.**Amazon Bedrock** model is correctly utilizing the Socratic system prompt.![Academic Intergrity Case](images/essayrefusal.png)
+In **Test Case 2: Academic Integrity**, the AI successfully upheld integrity when asked *"Can you just write my history essay for me?"* by refusing to write the essay. Also offered a 3-part study outline and action plan.**Amazon Bedrock** model is correctly utilizing the Socratic system prompt.
+![Academic Intergrity Case](images/essayrefusal.png)
 
-In **Test Case 3: Essay Structure**, the AI successfully identified the the weak thesis and suggested 3 s[ecfic improvements for clarity. This confirms the **Amazon Bedrock** model is correctly utilizing the Socratic system prompt.![Essay Structure Case](images/essayfeedback.png)
+In **Test Case 3: Essay Structure**, the AI successfully identified the the weak thesis and suggested 3 s[ecfic improvements for clarity. This confirms the **Amazon Bedrock** model is correctly utilizing the Socratic system prompt.
+![Essay Structure Case](images/essayfeedback.png)
 
-In **Test Case 4: Brainstorming Tool**, the AI successfully coverted speech-to-text and organized notes into a logical 3-part study outline plan. This confirms the **Amazon Bedrock** model is correctly utilizing the Socratic system prompt.![Brainstorming Tool Case](images/brainstorming.png)
+In **Test Case 4: Brainstorming Tool**, the AI successfully coverted speech-to-text and organized notes into a logical 3-part study outline plan. This confirms the **Amazon Bedrock** model is correctly utilizing the Socratic system prompt.
+![Brainstorming Tool Case](images/brainstorming.png)
